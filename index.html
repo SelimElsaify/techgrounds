@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content=" width="device-width, minimum-scale=1.0, maximum-scale=2.0, initial-scale=1.0, user-scale=2.0>
+
+<!-- link naar CSS-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<head>
+	<title>Headings | HTML 5</title>
+</head>
+<body>  
+    <div class="talen">
+    <label for="languages">Select language:</label>
+    <select id="languages">
+    <option value="english"><a href="#">English</a></option>
+    <option value="french"><a href="#">French</a></option>
+    <option value="dutch"><a href="#">Nederlands</a></option>
+    <option value="arabic"><a href="#">العربية</a></option>
+    </select>
+    </div>
+<!-- another options is the datalist
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+<option value="Edge">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>  
+           -->
+    <main>
+    	<header>
+	<nav>
+	    <ul>
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="pages/tables.html">tables</a></li>
+	        <li><a href="pages/voorbeeld.html">Voorbeeld</a></li>
+	        <li><a href="/">JavaScript</a></li>
+	        <li><a href="/">Python</a></li>
+	        <li><a href="/">Contact</a></li>
+	    </ul>
+	</nav>
+	</header>
+	
+		<article>
+			<p>Opdracht Headings </p>
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+		</article>
+ <!-- vragen 15 16 17-->
+ 			<article>
+    		<h1>Mijn eerste website</h1>
+			<h2>Mijn eerste sub-kop</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+			<h3>Mijn tweede sub-kop</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+		     </article>
+           <!-- video section -->
+            <section id="media">
+            <h2>Oefenig Video tag</h2>
+            <video poster="" width="100%" height="60%" controls="yes" preload="yes" muted="yes">
+            <source src="media/ywcc.mp4" type="video/mp4">
+            <source src="media/ywcc.webm" type="video/webm">
+            </video> 	
+            </section>
+            <!-- audio section -->
+             <section id="audio">
+            <h2>Oefenig audio tag</h2>
+        <p>Er zijn 3 formaten audio. Zie de table hieronder</p>
+    <table style="text-align: center, color: blue, font-family: Verdana";>
+    <tr>
+    <th style="width:50%">Format</th>
+    <th style="width:50%">Type</th>
+
+    </tr>
+    <tr>
+    <td>MP3</td>
+    <td>
+    <audio id="myAudio" controls
+        src="/media/audio.mp3">
+     </audio>
+</td>
+    </tr>
+    <tr>
+    <td>Ogg</td>
+    <td> 
+    <audio id="myAudio" controls src="media/audio.ogg">
+    </audio>
+</td>
+    </tr>
+    <tr>
+    <td>Wav</td>
+    <td><audio id="myAudio" controls src="media/audio.wav">
+    </audio></td>
+    </tr>
+    </table>
+   <div class="play_pause" role="button" onclick="aud_play_pause()">Play/Pause</div>
+     </section>
+<hr>
+<!-- Iframe -->
+<section class="jsf">
+<h2>Iframe insertion in webpage</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zW28Mb1YvwY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="made by Selim"></iframe>  
+</section>
+<hr>
+<section class="lists">
+    <h2>We maken een UL en OL lijsten</h2>
+    <p>Begin met UL.</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>Suiker</li>
+    </ul>
+     <p>Hier volgt een OL.</p>
+    <ol>
+        <li>Coffee
+        <ol>
+        <li>Coffe wrong</li>
+         <li>Coffe cappuchino</li>
+       </ol>
+        
+        </li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>Suiker</li>
+    </ol>
+</section>
+<hr>
+<!-- oefening navbalk met links naar texten -->
+<article class="complete">
+    <ul>
+  <li><a href="#lions">Lions</a></li>
+   <li><a href="#tigers">Tigers</a></li>
+   <li><a href="#monkeys">Monkeys</a></li>
+    <li><a href="#anders">Anders</a></li>
+    </ul>
+    <section>
+    <h3>We maken links naar onderdelen van de pagina</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
+    <section id="lions">
+        <h3>Lions</h3>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    </section>
+    <section id="tigers">
+    <h3>Tigers</h3>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    </section>
+    <section id="monkeys">
+    <h3>Monkeys</h3>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    </section>
+     <section id="anders">
+     <h3>Anders</h3>
+    <p>
+    <img src="images/mainimg.jpg" alt="image" title="This is a cool image, is not it?"/>
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    </section>
+    
+    
+</article>
+
+	</main>
+	<hr>
+	<footer>
+		<ul>
+			<li><a href="index.html">Home</a></li> | 
+			<li><a href="tables.html">Tables</a></li> | 
+			<li><a href="pages/tables.html">Voorbeeld</a></li> | 
+			<li><a href="#">page 3</a></li> 
+		</ul>
+		<p>Copyright &copy; <a href="www.techgrounds.nl" target="_blank">Techgrounds Academy</a> 2021</p>
+	</footer>
+ <!-- JS tbv de play/pause button -->
+		<script>
+		function aud_play_pause() {
+		  var myAudio = document.getElementById("myAudio");
+		  if (myAudio.paused) {
+			myAudio.play();
+		  } else {
+			myAudio.pause();
+		  }
+		}
+    </script>
+</body>
+</html>
